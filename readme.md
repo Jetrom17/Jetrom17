@@ -6,6 +6,7 @@
 ![logo](https://i.imgur.com/meQNVfJ_d.webp?maxwidth=640&shape=thumb&fidelity=medium) <br>
 [@Jetronix](https://linkr.bio/Jetrom)
 
+<a href="https://app.daily.dev/Jetrom"><img src="https://api.daily.dev/devcards/bad4f514db5e40d68ebe52fbc8a391cd.png?r=1jo" width="400" alt="Jeiel's Dev Card"/></a>
 #
 <div align="center">
 <p><b>Estatísca</b></p>
@@ -39,8 +40,6 @@ c75ff746-5038-4434-9af2-7cb6059ec2d9 <br>
 <img src="https://img.shields.io/badge/picpay-21C25E?style=for-the-badge&logo=picpay&logoColor=white" target="_blank">
 
 #
-
-<img src="https://i.imgur.com/8cOOMXR_d.webp?maxwidth=640&shape=thumb&fidelity=medium" target="_blank">
   </div>
   
   <!--
