@@ -4,7 +4,7 @@
 -->
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0.txt) <br> <div align="center">
 ![logo](https://i.imgur.com/meQNVfJ_d.webp?maxwidth=640&shape=thumb&fidelity=medium) <br>
-[@Jetronix](https://linkr.bio/Jetrom)
+[@Jetronix](https://jetronix.ml)
 
 #
 <div align="center">
@@ -16,7 +16,7 @@
   
 #
 ### Contatos
-<a href="https://t.me/Jetronix" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a><a href="https://Jetronix.tk" target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" target="_blank"></a><a href="mailto:Jeiel17@proton.me" target="_blank"><img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" target="_blank"></a><a href="https://matrix.to/#/@jetrom:matrix.org" target="_blank"><img src="https://img.shields.io/badge/matrix-000000?style=for-the-badge&logo=Matrix&logoColor=white" target="_blank"></a><a href="https://github.com/Jeiel17" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+<a href="https://t.me/Jetronix" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a><a href="https://Jetronix.ml" target="_blank"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" target="_blank"></a><a href="mailto:Jeiel17@proton.me" target="_blank"><img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" target="_blank"></a><a href="https://matrix.to/#/@jetrom:matrix.org" target="_blank"><img src="https://img.shields.io/badge/matrix-000000?style=for-the-badge&logo=Matrix&logoColor=white" target="_blank"></a><a href="https://github.com/Jeiel17" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 #
 ### Sistema operacional usado atualmente
@@ -28,8 +28,8 @@
 
 #
 ### Meus bots 🤖
-@TopEnigma_bot (Telegram) |
-ENIGMA `#4559`(Discord)
+~~@TopEnigma_bot (Telegram)~~ |
+~~ENIGMA `#4559`(Discord)~~ | `ProfessorMinecraft#0238`
 
 #
 ### Doe Sats de Bitcoin
