@@ -16,7 +16,7 @@
   
 #
 ### Contatos
-Jeiel@dukc.com
+0m453xux@duck.com
 
 #
 ### Sistema operacional usado atualmente
