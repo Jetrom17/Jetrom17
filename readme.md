@@ -4,7 +4,7 @@
 -->
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/gpl-3.0.txt) <br> <div align="center">
 ![logo](https://i.imgur.com/meQNVfJ_d.webp?maxwidth=640&shape=thumb&fidelity=medium) <br>
-[@Jetronix](https://is.gd/Jeiel)
+[@Jetrom](https://jeiel.pages.dev)
 
 #
 <div align="center">
