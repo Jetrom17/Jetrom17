@@ -1,3 +1,4 @@
+[![](https://visitcount.itsvg.in/api?id=Jetrom17&label=Visualiza%C3%A7%C3%B5es&color=2&icon=5&pretty=true)](https://visitcount.itsvg.in)
 # Welcome! 👋
 <!--
 🎨 Designer por Jeiel Miranda, via canva.
@@ -12,30 +13,3 @@
   <a href="https://github.com/Jetrom17">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Jetrom17&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/> <br>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jetrom17&layout=compact&langs_count=7&theme=dark"/>
-  <br>
-  
-#
-### Contatos
-0m453xux@duck.com
-
-#
-### Sistema operacional usado atualmente
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" target="_blank"><img src="https://img.shields.io/badge/Zorin%20OS-0CC1F3?style=for-the-badge&logo=zorin&logoColor=white" target="_blank">
-
-#
-### Experiente em
-<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" target="_blank"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" target="_blank"><img src="https://img.shields.io/badge/Linux_Mint-87CF3E?style=for-the-badge&logo=linux-mint&logoColor=white" target="_blank"><img src="https://img.shields.io/badge/Zorin%20OS-0CC1F3?style=for-the-badge&logo=zorin&logoColor=white" target="_blank"><img>
-
-  </div>
-  
-  <!--
-  Fontes:
-  
-  - Badges: https://dev.to/envoy_/150-badges-for-github-pnk#ide
-  - Repositório baseado: https://github.com/rafaballerini/rafaballerini/blob/main/README.md
-  - Emonjis: https://emojipedia.org/search/?q=paint
-  - Editor Readme para testes: https://readme.so/pt
-  - Sats: https://getalby.com/
-  - Image: https://picrew.me/image_maker/582810
-  
-  -->
