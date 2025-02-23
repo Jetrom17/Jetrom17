@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeielmiranda.is-a.dev/sitemap.xml
