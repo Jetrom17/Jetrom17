@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile Card</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #7c3aed;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #e2e8f0 0%, #f1f5f9 100%);
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            width: min(100%, 26rem);
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+            animation: cardEntrance 0.8s ease-out;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            animation: rotate 6s linear infinite;
+            opacity: 0.05;
+        }
+
+        .card-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .profile-img {
+            width: 8rem;
+            height: 8rem;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            border: 0.25rem solid white;
+            box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .position {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .description {
+            color: #64748b;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .social-link {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--light);
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            transition: var(--transition);
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+        }
+
+        .social-link:hover {
+            transform: translateY(-0.25rem);
+            background: var(--primary);
+            color: white;
+        }
+
+        .contact-btn {
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-0.125rem);
+            box-shadow: 0 0.5rem 1rem rgba(37, 99, 235, 0.3);
+        }
+
+        @keyframes cardEntrance {
+            from {
+                opacity: 0;
+                transform: translateY(2rem) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-content">
+            <img src="https://jeiel.pages.dev/jeiel.png" alt="Foto de Jeiel Lima Miranda" class="profile-img">
+            <h1>Jeiel Lima Miranda</h1>
+            <p class="position">Segurança Digita</p>
+            <p class="description">
+                Ethical Hacking. DevOps. SOC Analyst. 
+            </p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/jeiel-lima-miranda" target="_blank" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://github.com/Jetrom17" target="_blank" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://t.me/Jeiel_0rbit" target="_blank" class="social-link">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 3L3 10.5l7.5 2.5L19.5 5.5l-9 8.5v6l3.5-3.5 4.5 3.5 3-17z"></path>
+    </svg>
+</a>
+            </div>
+            <button class="contact-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                Contatar (em breve)
+            </button>
+        </div>
+    </div>
+</body>
+</html>
